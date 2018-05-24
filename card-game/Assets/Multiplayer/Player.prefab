@@ -1,0 +1,2397 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1807189135695980}
+  m_IsPrefabParent: 1
+--- !u!1 &1807189135695980
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4577290634744288}
+  - component: {fileID: 114982014915048102}
+  - component: {fileID: 23551563962236920}
+  - component: {fileID: 33877379755341768}
+  - component: {fileID: 65684508332461552}
+  - component: {fileID: 114588992442028632}
+  - component: {fileID: 114538189345682408}
+  - component: {fileID: 82937490212738166}
+  m_Layer: 0
+  m_Name: Player
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4577290634744288
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1807189135695980}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 20.351234, y: 14.378153, z: -6.754672}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &23551563962236920
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1807189135695980}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33877379755341768
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1807189135695980}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!65 &65684508332461552
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1807189135695980}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!82 &82937490212738166
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1807189135695980}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 5965d61b5fc8e2a4b9c389d591feb52d, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.5
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 1
+  BypassListenerEffects: 1
+  BypassReverbZones: 1
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!114 &114538189345682408
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1807189135695980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b058ebe012221c439faf41423c6c7b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  messagePrefab: {fileID: 1814534930116916, guid: bd6b97db77ee0db4399d80e4ae4547b9,
+    type: 2}
+  bul: 0
+  sendPos: 0
+  sendCard: 0
+  doStuff: 0
+  doStuff2: 0
+  receiver: 0
+  play: 0
+  chara: 0
+  gameSystemScript: {fileID: 0}
+  gameMenuScript: {fileID: 0}
+--- !u!114 &114588992442028632
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1807189135695980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 163
+    i1: 168
+    i2: 6
+    i3: 175
+    i4: 88
+    i5: 255
+    i6: 36
+    i7: 100
+    i8: 185
+    i9: 180
+    i10: 80
+    i11: 67
+    i12: 110
+    i13: 98
+    i14: 87
+    i15: 102
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 1
+--- !u!114 &114982014915048102
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1807189135695980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 551587819e2b13349bb4addaf43234d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cards:
+  - cardName: temp
+    falseID: 0
+    portrait: {fileID: 0}
+    level: 0
+    type: 0
+    hp: 0
+    hpType: 0
+    attack: 0
+    attackType: 0
+    specials: 
+    specialID: 
+    manaCost: 0
+    attackSound: {fileID: 0}
+    attackEffect: {fileID: 0}
+    shortDesc: 
+    longDesc: 
+    cooldown: 0
+    BG: {fileID: 0}
+  - cardName: Guardian
+    falseID: 1
+    portrait: {fileID: 2800000, guid: cc0cddcdb8556a541a63328628b171e2, type: 3}
+    level: 7
+    type: 0
+    hp: 32
+    hpType: 0
+    attack: 5
+    attackType: 0
+    specials: 04
+    specialID: 00000000
+    manaCost: 0
+    attackSound: {fileID: 8300000, guid: 16602cea3eafdba4fb0d1e30664a6d92, type: 3}
+    attackEffect: {fileID: 2800000, guid: 22837b938f202ee44ac76c418af79e4f, type: 3}
+    shortDesc: And my axe
+    longDesc: Heavy armored dwarf with greataxe. His high endurance makes him a decent
+      unit to protect second-line support.
+    cooldown: 5
+    BG: {fileID: 2800000, guid: 9eb968e54ed6fc64eade13bd3fc7e11c, type: 3}
+  - cardName: Pikeman
+    falseID: 2
+    portrait: {fileID: 2800000, guid: 8801f1089406a83408993526bf8b021c, type: 3}
+    level: 4
+    type: 0
+    hp: 16
+    hpType: 0
+    attack: 4
+    attackType: 0
+    specials: 01
+    specialID: 24000000
+    manaCost: 75
+    attackSound: {fileID: 8300000, guid: 3eb301da04a266846b39e24ccf8683c2, type: 3}
+    attackEffect: {fileID: 2800000, guid: c0464fb4146078e4595cc2ad53da3f2b, type: 3}
+    shortDesc: "They may take our lives,\nbut they'll never take \nour freedom!"
+    longDesc: Experienced fighter with spear.
+    cooldown: 3
+    BG: {fileID: 2800000, guid: e90f2a68082f13949b1005bcc52f6ed8, type: 3}
+  - cardName: Healer
+    falseID: 3
+    portrait: {fileID: 2800000, guid: c29ca93e6ecd716428725b2d7b58c974, type: 3}
+    level: 7
+    type: 4
+    hp: 15
+    hpType: 0
+    attack: -3
+    attackType: 0
+    specials: 03
+    specialID: 02000000
+    manaCost: 160
+    attackSound: {fileID: 8300000, guid: c7f05cbd68a783943b47a417ed92d8b6, type: 3}
+    attackEffect: {fileID: 2800000, guid: 6225bf1e8d9964948ad940da6dda16ef, type: 3}
+    shortDesc: 'Have you heard
+
+      of the high elves?'
+    longDesc: An elf who uses magic to cure injured allies. Her knowledge allows her
+      to heal many with single spell.
+    cooldown: 6
+    BG: {fileID: 2800000, guid: 16e5050e49e3b0b4fbcc1fff2305b197, type: 3}
+  - cardName: Dragon
+    falseID: 4
+    portrait: {fileID: 2800000, guid: df550f1239897544e941fa88154ee525, type: 3}
+    level: 10
+    type: 2
+    hp: 21
+    hpType: 0
+    attack: 3
+    attackType: 1
+    specials: 01
+    specialID: 03000000
+    manaCost: 350
+    attackSound: {fileID: 8300000, guid: 72673d92f6b414f4cb5f081c22e32083, type: 3}
+    attackEffect: {fileID: 2800000, guid: 595cf672d1a53c8408da351e2b5b02d6, type: 3}
+    shortDesc: "We didn't \nstart the fire"
+    longDesc: Elder creature. Uses fire breath in fight. Dragons are rare because
+      many adventurers believe they hide treasures. In that case people hunt Dragons
+      down.
+    cooldown: 10
+    BG: {fileID: 2800000, guid: 7ec0f2b1c715ec242acde22266d4680e, type: 3}
+  - cardName: Knight
+    falseID: 5
+    portrait: {fileID: 2800000, guid: 6b81de0cc31abd6458e456a00361712e, type: 3}
+    level: 6
+    type: 0
+    hp: 24
+    hpType: 0
+    attack: 5
+    attackType: 0
+    specials: 06
+    specialID: 04000000
+    manaCost: 100
+    attackSound: {fileID: 8300000, guid: 16602cea3eafdba4fb0d1e30664a6d92, type: 3}
+    attackEffect: {fileID: 2800000, guid: 22837b938f202ee44ac76c418af79e4f, type: 3}
+    shortDesc: "Ready to serve, \nmy lord"
+    longDesc: Skilled combatant. Wielding longsword and wearing chain mail armor makes
+      him deadly enemy.
+    cooldown: 3
+    BG: {fileID: 2800000, guid: e90f2a68082f13949b1005bcc52f6ed8, type: 3}
+  - cardName: Ranger
+    falseID: 6
+    portrait: {fileID: 2800000, guid: c49e821101e8bd046baa1423b4bf5e6d, type: 3}
+    level: 5
+    type: 1
+    hp: 16
+    hpType: 0
+    attack: 4
+    attackType: 0
+    specials: 04
+    specialID: 05000000
+    manaCost: 90
+    attackSound: {fileID: 8300000, guid: f587827e8855ffb40827a1564a08dca3, type: 3}
+    attackEffect: {fileID: 2800000, guid: e6fea7e0251e9a341bb9bcac7b671c8d, type: 3}
+    shortDesc: Time is of the essence
+    longDesc: A woman who spent years of training with bow and exploring forests.
+      Deadly when covered by tough unit.
+    cooldown: 3
+    BG: {fileID: 2800000, guid: 16e5050e49e3b0b4fbcc1fff2305b197, type: 3}
+  - cardName: Mercenary
+    falseID: 7
+    portrait: {fileID: 2800000, guid: 19e14a33e38108a46a4c50ddddf69ca0, type: 3}
+    level: 8
+    type: 0
+    hp: 19
+    hpType: 0
+    attack: 5
+    attackType: 0
+    specials: 08
+    specialID: 06000000
+    manaCost: 150
+    attackSound: {fileID: 8300000, guid: 16602cea3eafdba4fb0d1e30664a6d92, type: 3}
+    attackEffect: {fileID: 2800000, guid: 22837b938f202ee44ac76c418af79e4f, type: 3}
+    shortDesc: Go ahead, make my day
+    longDesc: A man who refuses to serve any king. He travels the world to seek other
+      warriors and fight them to become the best.
+    cooldown: 6
+    BG: {fileID: 2800000, guid: 2ffed014b24210343b4fd4cce4204002, type: 3}
+  - cardName: Archer
+    falseID: 8
+    portrait: {fileID: 2800000, guid: a2f5515315d75154092bcd1c9d469af4, type: 3}
+    level: 3
+    type: 1
+    hp: 7
+    hpType: 0
+    attack: 3
+    attackType: 0
+    specials: 04
+    specialID: 00000000
+    manaCost: 60
+    attackSound: {fileID: 8300000, guid: f587827e8855ffb40827a1564a08dca3, type: 3}
+    attackEffect: {fileID: 2800000, guid: e6fea7e0251e9a341bb9bcac7b671c8d, type: 3}
+    shortDesc: Dodge this
+    longDesc: Basic castle unit. Provides support for infantry. Wears armor to survive
+      when left alone.
+    cooldown: 2
+    BG: {fileID: 2800000, guid: e90f2a68082f13949b1005bcc52f6ed8, type: 3}
+  - cardName: Wyvern
+    falseID: 9
+    portrait: {fileID: 2800000, guid: 324b09cc5a32334458b26f0f9f756874, type: 3}
+    level: 5
+    type: 2
+    hp: 17
+    hpType: 3
+    attack: 1
+    attackType: 3
+    specials: 03
+    specialID: 02000000
+    manaCost: 120
+    attackSound: {fileID: 8300000, guid: 71397c24ab8893649beda02eb8ede516, type: 3}
+    attackEffect: {fileID: 2800000, guid: 679274a78a3e80b4f825554e035abfe6, type: 3}
+    shortDesc: "Poison running \nthrough my veins"
+    longDesc: Wyverns are sometimes called forest dragons. Instead of fire breath
+      they use poisonous vomit.
+    cooldown: 5
+    BG: {fileID: 2800000, guid: 16e5050e49e3b0b4fbcc1fff2305b197, type: 3}
+  - cardName: Herbalist
+    falseID: 10
+    portrait: {fileID: 2800000, guid: 00257261e8b1cc247ad6972b8312637e, type: 3}
+    level: 3
+    type: 3
+    hp: 9
+    hpType: 0
+    attack: -4
+    attackType: 0
+    specials: 03
+    specialID: 07000000
+    manaCost: 50
+    attackSound: {fileID: 8300000, guid: c7f05cbd68a783943b47a417ed92d8b6, type: 3}
+    attackEffect: {fileID: 2800000, guid: 6225bf1e8d9964948ad940da6dda16ef, type: 3}
+    shortDesc: "I seek to cure \nwhat's deep inside"
+    longDesc: Young elf who isn't talented in magic nor fight. However he can be useful
+      ally because of his natural treatments.
+    cooldown: 3
+    BG: {fileID: 2800000, guid: 16e5050e49e3b0b4fbcc1fff2305b197, type: 3}
+  - cardName: Warrior
+    falseID: 11
+    portrait: {fileID: 2800000, guid: 28be4090f6284a44184b843de3091b16, type: 3}
+    level: 4
+    type: 0
+    hp: 11
+    hpType: 0
+    attack: 3
+    attackType: 0
+    specials: 06
+    specialID: 08000000
+    manaCost: 80
+    attackSound: {fileID: 8300000, guid: 3eb301da04a266846b39e24ccf8683c2, type: 3}
+    attackEffect: {fileID: 2800000, guid: 6c9f458f2647ba2469effe8a73b9644b, type: 3}
+    shortDesc: "They're taking \nthe hobbits \nto Isengard"
+    longDesc: While elven warriors aren't usually very tough they make it up with
+      good damage. Elven fighter is specialized in defeating weak units very fast.
+    cooldown: 3
+    BG: {fileID: 2800000, guid: 16e5050e49e3b0b4fbcc1fff2305b197, type: 3}
+  - cardName: Defender
+    falseID: 12
+    portrait: {fileID: 2800000, guid: 6429c87ec60dd27429acb8cdcd18ab3f, type: 3}
+    level: 4
+    type: 0
+    hp: 20
+    hpType: 0
+    attack: 3
+    attackType: 0
+    specials: 06
+    specialID: 04000000
+    manaCost: 70
+    attackSound: {fileID: 8300000, guid: 3eb301da04a266846b39e24ccf8683c2, type: 3}
+    attackEffect: {fileID: 2800000, guid: 4c731a28ca9ab324b890fc9bb5e2bf6e, type: 3}
+    shortDesc: 'I''m digging a hole
+
+      Diggy diggy hole'
+    longDesc: Defenders are warriors who specialize in using shields more often than
+      weapons. That means defender is good partner for low-hp second-line units.
+    cooldown: 3
+    BG: {fileID: 2800000, guid: 9eb968e54ed6fc64eade13bd3fc7e11c, type: 3}
+  - cardName: Alchemist
+    falseID: 13
+    portrait: {fileID: 2800000, guid: 019e365fd232ad34b87adaeaf6cac87b, type: 3}
+    level: 6
+    type: 2
+    hp: 16
+    hpType: 0
+    attack: 2
+    attackType: 2
+    specials: 01
+    specialID: 09000000
+    manaCost: 100
+    attackSound: {fileID: 8300000, guid: 3e559389070b6db429a2cacad79f921e, type: 3}
+    attackEffect: {fileID: 2800000, guid: 2c00410940e04c14697ff918e4840415, type: 3}
+    shortDesc: The fire is slowly dying
+    longDesc: Living underground provides greater understanding of elements. An dwarf
+      who spends much time studying them becomes an alchemist.
+    cooldown: 5
+    BG: {fileID: 2800000, guid: 9eb968e54ed6fc64eade13bd3fc7e11c, type: 3}
+  - cardName: Rifleman
+    falseID: 14
+    portrait: {fileID: 2800000, guid: 98d22daef11895f418da0b382e23ef02, type: 3}
+    level: 6
+    type: 1
+    hp: 18
+    hpType: 0
+    attack: 4
+    attackType: 1
+    specials: 04
+    specialID: 0c000000
+    manaCost: 95
+    attackSound: {fileID: 8300000, guid: a8ba0407ad1393843beec85034b27aee, type: 3}
+    attackEffect: {fileID: 2800000, guid: c72fe3ec043adcc438d0956d1af01876, type: 3}
+    shortDesc: Hasta la vista, baby
+    longDesc: Some dwarves prefer to kill enemies from distance. However they don't
+      use bows like elves, but guns which are more powerful.
+    cooldown: 4
+    BG: {fileID: 2800000, guid: 9eb968e54ed6fc64eade13bd3fc7e11c, type: 3}
+  - cardName: Protector
+    falseID: 15
+    portrait: {fileID: 2800000, guid: 897d55d8be474e0408f63a478075f256, type: 3}
+    level: 6
+    type: 0
+    hp: 24
+    hpType: 0
+    attack: 6
+    attackType: 0
+    specials: 01
+    specialID: 0d000000
+    manaCost: 125
+    attackSound: {fileID: 8300000, guid: ffcfa7aeb8b6cd84088d063d05668985, type: 3}
+    attackEffect: {fileID: 2800000, guid: 43a308ad0b6066d4a9c6b4829e476b2d, type: 3}
+    shortDesc: 'You can''t
+
+      touch this'
+    longDesc: An dwarf who gave up shields and took stronger weapon. Still tough as
+      defending others, but he performs better when someone must be defeated fast.
+    cooldown: 4
+    BG: {fileID: 2800000, guid: 9eb968e54ed6fc64eade13bd3fc7e11c, type: 3}
+  - cardName: Pyro
+    falseID: 16
+    portrait: {fileID: 2800000, guid: 745dd6a3689754b419dff1497cd31ecd, type: 3}
+    level: 6
+    type: 2
+    hp: 13
+    hpType: 0
+    attack: 3
+    attackType: 1
+    specials: 02
+    specialID: 0a000000
+    manaCost: 160
+    attackSound: {fileID: 8300000, guid: 833661ce2dc48ff49968546b5b8da7d6, type: 3}
+    attackEffect: {fileID: 2800000, guid: 595cf672d1a53c8408da351e2b5b02d6, type: 3}
+    shortDesc: 'Say hello to
+
+      my little friend!'
+    longDesc: When dwarven alchemists and engineers decided to cooperate they created
+      many deadly weapons. Pyro is dwarf strong enough to carry and use one of these
+      weapons.
+    cooldown: 4
+    BG: {fileID: 2800000, guid: 9eb968e54ed6fc64eade13bd3fc7e11c, type: 3}
+  - cardName: Paladin
+    falseID: 17
+    portrait: {fileID: 2800000, guid: efc220167cf251743b2ef5c9086b80f2, type: 3}
+    level: 10
+    type: 0
+    hp: 30
+    hpType: 0
+    attack: 6
+    attackType: 0
+    specials: 0403
+    specialID: 0000000007000000
+    manaCost: 300
+    attackSound: {fileID: 8300000, guid: c9a8ba270222a304bb5a41a486b0e490, type: 3}
+    attackEffect: {fileID: 2800000, guid: 447cde9732627a04b8944c59afd8fbf8, type: 3}
+    shortDesc: 'In violent times,
+
+      you shouldn''t have to
+
+      sell your soul'
+    longDesc: Paladin is a holy knight who fight against evil creatures to keep the
+      world safe. Uses rare weapon which is efficient against undead units.
+    cooldown: 8
+    BG: {fileID: 2800000, guid: e90f2a68082f13949b1005bcc52f6ed8, type: 3}
+  - cardName: Snake
+    falseID: 18
+    portrait: {fileID: 2800000, guid: 1d278507d6017644cab36cb98a02abf5, type: 3}
+    level: 1
+    type: 0
+    hp: 7
+    hpType: 3
+    attack: 3
+    attackType: 3
+    specials: 03
+    specialID: 0b000000
+    manaCost: 40
+    attackSound: {fileID: 8300000, guid: 6555775458b64fb4a923d83d3e72bdcf, type: 3}
+    attackEffect: {fileID: 2800000, guid: 9cb52fe2d41051b4a82bf6241f6c59ec, type: 3}
+    shortDesc: Thanksssss.
+    longDesc: Large forest snake. His bite is poisonous.
+    cooldown: 1
+    BG: {fileID: 2800000, guid: 16e5050e49e3b0b4fbcc1fff2305b197, type: 3}
+  - cardName: Wolf
+    falseID: 19
+    portrait: {fileID: 2800000, guid: c5fb75afdb768df468fe53ebd26a9da7, type: 3}
+    level: 1
+    type: 0
+    hp: 10
+    hpType: 0
+    attack: 2
+    attackType: 0
+    specials: 05
+    specialID: 0e000000
+    manaCost: 35
+    attackSound: {fileID: 8300000, guid: 1217f9feca1191743b4353658d14405b, type: 3}
+    attackEffect: {fileID: 2800000, guid: c0464fb4146078e4595cc2ad53da3f2b, type: 3}
+    shortDesc: 'I''m hungry
+
+      like a wolf'
+    longDesc: Very dangerous wolf. Lives in snowy mountains.
+    cooldown: 1
+    BG: {fileID: 2800000, guid: 9eb968e54ed6fc64eade13bd3fc7e11c, type: 3}
+  - cardName: Fairy
+    falseID: 20
+    portrait: {fileID: 2800000, guid: 9b243828ebf91d44995a081f52bc634b, type: 3}
+    level: 3
+    type: 4
+    hp: 8
+    hpType: 2
+    attack: -1
+    attackType: 0
+    specials: 03
+    specialID: 0f000000
+    manaCost: 55
+    attackSound: {fileID: 8300000, guid: c7f05cbd68a783943b47a417ed92d8b6, type: 3}
+    attackEffect: {fileID: 2800000, guid: 6225bf1e8d9964948ad940da6dda16ef, type: 3}
+    shortDesc: 'May the Force
+
+      be with you'
+    longDesc: Fairy is a little beautiful girl with wings. She heals all allies with
+      her magic orb.
+    cooldown: 4
+    BG: {fileID: 2800000, guid: 16e5050e49e3b0b4fbcc1fff2305b197, type: 3}
+  - cardName: Dreadlord
+    falseID: 21
+    portrait: {fileID: 2800000, guid: a76e452ac11c7ec45b19526df385d0a4, type: 3}
+    level: 7
+    type: 0
+    hp: 22
+    hpType: 1
+    attack: 7
+    attackType: 0
+    specials: 01
+    specialID: 10000000
+    manaCost: 135
+    attackSound: {fileID: 8300000, guid: c9a8ba270222a304bb5a41a486b0e490, type: 3}
+    attackEffect: {fileID: 2800000, guid: 22837b938f202ee44ac76c418af79e4f, type: 3}
+    shortDesc: Here's Johnny!
+    longDesc: Fearsome heavy armored knight who decided to fight against living. Deals
+      massive damage with his two-hand sword.
+    cooldown: 4
+    BG: {fileID: 2800000, guid: 7ec0f2b1c715ec242acde22266d4680e, type: 3}
+  - cardName: Lich
+    falseID: 22
+    portrait: {fileID: 2800000, guid: 9389986200c1891408f5f0abbb656504, type: 3}
+    level: 8
+    type: 2
+    hp: 15
+    hpType: 1
+    attack: 2
+    attackType: 3
+    specials: 07
+    specialID: 11000000
+    manaCost: 175
+    attackSound: {fileID: 8300000, guid: f869b2e4e5b3b8b47929b70c8ca53d7a, type: 3}
+    attackEffect: {fileID: 2800000, guid: 940c503de3436e0419dee77901a095bb, type: 3}
+    shortDesc: 'You know how much
+
+      I sacrificed?!'
+    longDesc: Lich is a animated dead necromancer. He keeps some of his past skills,
+      but he isn't as powerful as he was before death.
+    cooldown: 5
+    BG: {fileID: 2800000, guid: 7ec0f2b1c715ec242acde22266d4680e, type: 3}
+  - cardName: Skeleton
+    falseID: 23
+    portrait: {fileID: 2800000, guid: 6bf8d4fc0913a2b4bbd7b22afaaf8b5f, type: 3}
+    level: 2
+    type: 0
+    hp: 11
+    hpType: 1
+    attack: 3
+    attackType: 0
+    specials: 03
+    specialID: 02000000
+    manaCost: 5
+    attackSound: {fileID: 8300000, guid: 4b9814c4ac2fcda419c52ad596dc6afb, type: 3}
+    attackEffect: {fileID: 2800000, guid: 6c9f458f2647ba2469effe8a73b9644b, type: 3}
+    shortDesc: Spooky scary skeleton
+    longDesc: 'Fallen man animated and forced to serve evil powers. '
+    cooldown: 1
+    BG: {fileID: 2800000, guid: 7ec0f2b1c715ec242acde22266d4680e, type: 3}
+  - cardName: Ghost
+    falseID: 24
+    portrait: {fileID: 2800000, guid: 5df091b5d9a26b4409bdff1ed6b7123f, type: 3}
+    level: 4
+    type: 1
+    hp: 15
+    hpType: 1
+    attack: 3
+    attackType: 3
+    specials: 05
+    specialID: 12000000
+    manaCost: 100
+    attackSound: {fileID: 8300000, guid: 3eb301da04a266846b39e24ccf8683c2, type: 3}
+    attackEffect: {fileID: 2800000, guid: 4c731a28ca9ab324b890fc9bb5e2bf6e, type: 3}
+    shortDesc: "I'm the \ninvisible man"
+    longDesc: Ghosts are remnants of people who were destroyed by magic. Their bodies
+      disappeared but souls were taken and distorted by evil.
+    cooldown: 3
+    BG: {fileID: 2800000, guid: 7ec0f2b1c715ec242acde22266d4680e, type: 3}
+  - cardName: Chieftain
+    falseID: 25
+    portrait: {fileID: 2800000, guid: eb7a5326e32c50d4085fc2788266999d, type: 3}
+    level: 6
+    type: 0
+    hp: 24
+    hpType: 0
+    attack: 4
+    attackType: 0
+    specials: 01
+    specialID: 13000000
+    manaCost: 140
+    attackSound: {fileID: 8300000, guid: ffcfa7aeb8b6cd84088d063d05668985, type: 3}
+    attackEffect: {fileID: 2800000, guid: 43a308ad0b6066d4a9c6b4829e476b2d, type: 3}
+    shortDesc: "Everybody \nwants to \nrule the world"
+    longDesc: Chieftain isn't just a big strong greenskin. His wisdom is even greater
+      than strenght. He knows battle tactics well.
+    cooldown: 4
+    BG: {fileID: 2800000, guid: fd71db76267d4f140b9a9a4ece9db8a0, type: 3}
+  - cardName: Barbarian
+    falseID: 26
+    portrait: {fileID: 2800000, guid: e0fe285211de7d24488054c3be6949fe, type: 3}
+    level: 4
+    type: 0
+    hp: 15
+    hpType: 0
+    attack: 5
+    attackType: 0
+    specials: 05
+    specialID: 14000000
+    manaCost: 65
+    attackSound: {fileID: 8300000, guid: 16602cea3eafdba4fb0d1e30664a6d92, type: 3}
+    attackEffect: {fileID: 2800000, guid: 22837b938f202ee44ac76c418af79e4f, type: 3}
+    shortDesc: Just a flesh wound
+    longDesc: Barbarians don't use armor to get better mobility when fighting. This
+      makes them vulnerable but provides more damage from thier attacks.
+    cooldown: 2
+    BG: {fileID: 2800000, guid: fd71db76267d4f140b9a9a4ece9db8a0, type: 3}
+  - cardName: Berserker
+    falseID: 27
+    portrait: {fileID: 2800000, guid: 65d2c35f763022348894d68da4b72f03, type: 3}
+    level: 7
+    type: 0
+    hp: 19
+    hpType: 0
+    attack: 7
+    attackType: 0
+    specials: 05
+    specialID: 15000000
+    manaCost: 130
+    attackSound: {fileID: 8300000, guid: 16602cea3eafdba4fb0d1e30664a6d92, type: 3}
+    attackEffect: {fileID: 2800000, guid: 22837b938f202ee44ac76c418af79e4f, type: 3}
+    shortDesc: 'Crom laughs
+
+      at your four winds'
+    longDesc: Berserkers are furious barbarians whose souls were possessed by evil.
+      They can still recognise allies, but soon they will go total madness.
+    cooldown: 4
+    BG: {fileID: 2800000, guid: fd71db76267d4f140b9a9a4ece9db8a0, type: 3}
+  - cardName: Crossbowman
+    falseID: 28
+    portrait: {fileID: 2800000, guid: 1cd738eb90e33a448b5ce47fdecf7c7c, type: 3}
+    level: 3
+    type: 1
+    hp: 16
+    hpType: 0
+    attack: 4
+    attackType: 0
+    specials: 01
+    specialID: 16000000
+    manaCost: 65
+    attackSound: {fileID: 8300000, guid: 3eb301da04a266846b39e24ccf8683c2, type: 3}
+    attackEffect: {fileID: 2800000, guid: e6fea7e0251e9a341bb9bcac7b671c8d, type: 3}
+    shortDesc: Lok'tar
+    longDesc: Greenskins like dwarves don't use bows, but also they aren't into engineering.
+      Crossbow is perfect choise, because of it's precision and simplicity.
+    cooldown: 3
+    BG: {fileID: 2800000, guid: fd71db76267d4f140b9a9a4ece9db8a0, type: 3}
+  - cardName: Guard
+    falseID: 29
+    portrait: {fileID: 2800000, guid: 1a84b040a8859434e8e1d0a7cff16a4a, type: 3}
+    level: 7
+    type: 0
+    hp: 18
+    hpType: 0
+    attack: 4
+    attackType: 0
+    specials: 04
+    specialID: 17000000
+    manaCost: 145
+    attackSound: {fileID: 8300000, guid: 411d45e8d4f724d4da59f58eb7f98a92, type: 3}
+    attackEffect: {fileID: 2800000, guid: a9fc5b26660798c4683af7eca8ef982f, type: 3}
+    shortDesc: "I am Rock,\nit ain't no \nbreakin' me"
+    longDesc: Stone giant who lives to protect the forest. In the past they were druids
+      who decided to merge with nature.
+    cooldown: 5
+    BG: {fileID: 2800000, guid: 16e5050e49e3b0b4fbcc1fff2305b197, type: 3}
+  - cardName: Hunter
+    falseID: 30
+    portrait: {fileID: 2800000, guid: 5b7fdcc0672b14e4b9ff5aefaee3115e, type: 3}
+    level: 6
+    type: 1
+    hp: 18
+    hpType: 0
+    attack: 4
+    attackType: 0
+    specials: 04
+    specialID: 05000000
+    manaCost: 95
+    attackSound: {fileID: 8300000, guid: f587827e8855ffb40827a1564a08dca3, type: 3}
+    attackEffect: {fileID: 2800000, guid: e6fea7e0251e9a341bb9bcac7b671c8d, type: 3}
+    shortDesc: Boom, headshot
+    longDesc: Hunter is talented archer but most of all tracker. He is opposite of
+      ranger because he hunts animals.
+    cooldown: 3
+    BG: {fileID: 2800000, guid: e90f2a68082f13949b1005bcc52f6ed8, type: 3}
+  - cardName: Reaper
+    falseID: 31
+    portrait: {fileID: 2800000, guid: 08f60f3c41a15de458d2e012f76e7df4, type: 3}
+    level: 8
+    type: 0
+    hp: 20
+    hpType: 1
+    attack: 5
+    attackType: 0
+    specials: 07
+    specialID: 18000000
+    manaCost: 140
+    attackSound: {fileID: 8300000, guid: 3eb301da04a266846b39e24ccf8683c2, type: 3}
+    attackEffect: {fileID: 2800000, guid: 6c9f458f2647ba2469effe8a73b9644b, type: 3}
+    shortDesc: Why so serious?
+    longDesc: Unknown creature, which can transform someone's death into mana. Uses
+      scythe which can also hurt units close to target.
+    cooldown: 4
+    BG: {fileID: 2800000, guid: 7ec0f2b1c715ec242acde22266d4680e, type: 3}
+  - cardName: Rogue
+    falseID: 32
+    portrait: {fileID: 2800000, guid: 96a166b63e70ce9419904d26932e3e4d, type: 3}
+    level: 6
+    type: 1
+    hp: 14
+    hpType: 0
+    attack: 5
+    attackType: 0
+    specials: 0303
+    specialID: 1a0000001b000000
+    manaCost: 130
+    attackSound: {fileID: 8300000, guid: 6a015fec881cfb3409cf568c14c774d5, type: 3}
+    attackEffect: {fileID: 2800000, guid: 38da60456ca7f364c988bb3a4ffe70fb, type: 3}
+    shortDesc: "I will find you, \nand I will kill you"
+    longDesc: Masked assassin with lethal weapon. Experienced in stealth tasks. Can
+      steal mana with his magic skills.
+    cooldown: 5
+    BG: {fileID: 2800000, guid: 7ec0f2b1c715ec242acde22266d4680e, type: 3}
+  - cardName: Cleric
+    falseID: 33
+    portrait: {fileID: 2800000, guid: 356200b26c171cf44bb98c98553c7bfd, type: 3}
+    level: 5
+    type: 0
+    hp: 18
+    hpType: 0
+    attack: 4
+    attackType: 4
+    specials: 02
+    specialID: 1c000000
+    manaCost: 80
+    attackSound: {fileID: 8300000, guid: ffcfa7aeb8b6cd84088d063d05668985, type: 3}
+    attackEffect: {fileID: 2800000, guid: 43a308ad0b6066d4a9c6b4829e476b2d, type: 3}
+    shortDesc: "Reach out \nand touch faith "
+    longDesc: Knight who wields blessed weapon. Not so strong as paladins, however
+      still very dangerous against undeads.
+    cooldown: 3
+    BG: {fileID: 2800000, guid: e90f2a68082f13949b1005bcc52f6ed8, type: 3}
+  - cardName: Hexer
+    falseID: 34
+    portrait: {fileID: 2800000, guid: 8db11664f51a26d4e8f350e3fa1e2db1, type: 3}
+    level: 5
+    type: 2
+    hp: 12
+    hpType: 0
+    attack: 2
+    attackType: 0
+    specials: 08
+    specialID: 1d000000
+    manaCost: 100
+    attackSound: {fileID: 8300000, guid: f869b2e4e5b3b8b47929b70c8ca53d7a, type: 3}
+    attackEffect: {fileID: 2800000, guid: c72fe3ec043adcc438d0956d1af01876, type: 3}
+    shortDesc: I got jar of dirt
+    longDesc: Those who are too weak to become shamans can be hexers. Hexer has completed
+      hardcore training and can deal massive damage to whole group.
+    cooldown: 5
+    BG: {fileID: 2800000, guid: fd71db76267d4f140b9a9a4ece9db8a0, type: 3}
+  - cardName: Hermit
+    falseID: 35
+    portrait: {fileID: 2800000, guid: f896d7849d3812149be8db3f7f11b352, type: 3}
+    level: 8
+    type: 1
+    hp: 20
+    hpType: 0
+    attack: 4
+    attackType: 0
+    specials: 030805
+    specialID: 1e000000060000001f000000
+    manaCost: 190
+    attackSound: {fileID: 8300000, guid: 411d45e8d4f724d4da59f58eb7f98a92, type: 3}
+    attackEffect: {fileID: 2800000, guid: a9fc5b26660798c4683af7eca8ef982f, type: 3}
+    shortDesc: 'Vows are spoken
+
+      to be broken'
+    longDesc: This man has left everything to focus on improving his skills. He lives
+      in a desert, far away from people.
+    cooldown: 6
+    BG: {fileID: 2800000, guid: fd71db76267d4f140b9a9a4ece9db8a0, type: 3}
+  - cardName: Priest
+    falseID: 36
+    portrait: {fileID: 2800000, guid: 553148cbdf884d041a0af1c64fc69a6e, type: 3}
+    level: 4
+    type: 3
+    hp: 11
+    hpType: 0
+    attack: -5
+    attackType: 0
+    specials: 07
+    specialID: 21000000
+    manaCost: 90
+    attackSound: {fileID: 8300000, guid: c7f05cbd68a783943b47a417ed92d8b6, type: 3}
+    attackEffect: {fileID: 2800000, guid: 6225bf1e8d9964948ad940da6dda16ef, type: 3}
+    shortDesc: Wololo
+    longDesc: 'Healer who uses holy power instead of herbs. '
+    cooldown: 3
+    BG: {fileID: 2800000, guid: e90f2a68082f13949b1005bcc52f6ed8, type: 3}
+  - cardName: Witchdoctor
+    falseID: 37
+    portrait: {fileID: 2800000, guid: 29911aa1cc5db7740b48b5c1f4df11d3, type: 3}
+    level: 5
+    type: 4
+    hp: 13
+    hpType: 0
+    attack: -2
+    attackType: 0
+    specials: 02
+    specialID: 22000000
+    manaCost: 110
+    attackSound: {fileID: 8300000, guid: c7f05cbd68a783943b47a417ed92d8b6, type: 3}
+    attackEffect: {fileID: 2800000, guid: 6225bf1e8d9964948ad940da6dda16ef, type: 3}
+    shortDesc: "Uh Eeh Uh Ah Ah\nTing Tang \nWalla Walla Bing Bang"
+    longDesc: Witchdoctor is a mysterious shaman, who focus on making healing elixirs.
+    cooldown: 5
+    BG: {fileID: 2800000, guid: fd71db76267d4f140b9a9a4ece9db8a0, type: 3}
+  - cardName: Pirate
+    falseID: 38
+    portrait: {fileID: 2800000, guid: 7268c1149ebccd840901ad5c77a8cc65, type: 3}
+    level: 5
+    type: 0
+    hp: 16
+    hpType: 0
+    attack: 5
+    attackType: 2
+    specials: 01
+    specialID: 23000000
+    manaCost: 80
+    attackSound: {fileID: 8300000, guid: 4b9814c4ac2fcda419c52ad596dc6afb, type: 3}
+    attackEffect: {fileID: 2800000, guid: 1a5b95990422e4f428d5205d7f57eb88, type: 3}
+    shortDesc: Why is the rum gone?
+    longDesc: An independent man like a mercenary. Uses magical weapon from treasure
+      that he found.
+    cooldown: 4
+    BG: {fileID: 2800000, guid: 2ffed014b24210343b4fd4cce4204002, type: 3}
+  - cardName: Fighter
+    falseID: 39
+    portrait: {fileID: 2800000, guid: e582a58b8449986408009b864f029fef, type: 3}
+    level: 1
+    type: 0
+    hp: 9
+    hpType: 0
+    attack: 3
+    attackType: 0
+    specials: 01
+    specialID: 24000000
+    manaCost: 35
+    attackSound: {fileID: 8300000, guid: 4b9814c4ac2fcda419c52ad596dc6afb, type: 3}
+    attackEffect: {fileID: 2800000, guid: 1a5b95990422e4f428d5205d7f57eb88, type: 3}
+    shortDesc: 'Somebody once told me
+
+      the world is gonna roll me '
+    longDesc: Goblins are the weakest but the most numerous greenskins. They live
+      in the caves, forests, deserts and swamps.
+    cooldown: 2
+    BG: {fileID: 2800000, guid: fd71db76267d4f140b9a9a4ece9db8a0, type: 3}
+  - cardName: Inventor
+    falseID: 40
+    portrait: {fileID: 2800000, guid: 025d2510cf7ec644d8d2cb36303d3ee2, type: 3}
+    level: 5
+    type: 1
+    hp: 14
+    hpType: 0
+    attack: 2
+    attackType: 0
+    specials: 010306
+    specialID: 200000002500000026000000
+    manaCost: 90
+    attackSound: {fileID: 8300000, guid: f587827e8855ffb40827a1564a08dca3, type: 3}
+    attackEffect: {fileID: 2800000, guid: e6fea7e0251e9a341bb9bcac7b671c8d, type: 3}
+    shortDesc: 'I''m too inteligent
+
+      for this'
+    longDesc: Old dwarf with not very dangerous crossbow. His job is to support team
+      with new inventions.
+    cooldown: 5
+    BG: {fileID: 2800000, guid: 9eb968e54ed6fc64eade13bd3fc7e11c, type: 3}
+  - cardName: Engineer
+    falseID: 41
+    portrait: {fileID: 2800000, guid: 3e998e592454f5a439e657a2461d50fe, type: 3}
+    level: 6
+    type: 2
+    hp: 12
+    hpType: 0
+    attack: 2
+    attackType: 0
+    specials: 01
+    specialID: 20000000
+    manaCost: 90
+    attackSound: {fileID: 8300000, guid: e5d920497cb42894788f0c957167e327, type: 3}
+    attackEffect: {fileID: 2800000, guid: dd4b5b8cafb895a4eab85017f031a886, type: 3}
+    shortDesc: 'I love the smell
+
+      of ballista
+
+      in the morning'
+    longDesc: Man skilled in using artilery machines. Can shoot multiple targets with
+      ballista.
+    cooldown: 3
+    BG: {fileID: 2800000, guid: e90f2a68082f13949b1005bcc52f6ed8, type: 3}
+  - cardName: Witch
+    falseID: 42
+    portrait: {fileID: 2800000, guid: 42b95fd8e883da2458e16f5737aa0056, type: 3}
+    level: 6
+    type: 1
+    hp: 11
+    hpType: 2
+    attack: 5
+    attackType: 2
+    specials: 08
+    specialID: 27000000
+    manaCost: 120
+    attackSound: {fileID: 8300000, guid: 3e559389070b6db429a2cacad79f921e, type: 3}
+    attackEffect: {fileID: 2800000, guid: 554f4a971c0915b47b63835c4e0138f9, type: 3}
+    shortDesc: As cold as ice
+    longDesc: Evil magician trained in water magic. Fascinated in black magic. Right
+      hand of necromancer.
+    cooldown: 4
+    BG: {fileID: 2800000, guid: 7ec0f2b1c715ec242acde22266d4680e, type: 3}
+  cardsInGame:
+  - pos: 0
+    cardName: 
+    readyToAttack: 0
+    id: 0
+    type: 0
+    hp: 0
+    hpType: 0
+    maxHp: 0
+    attack: 0
+    attackType: 0
+    special: 0
+    specialSkill: 0
+    attackSound: {fileID: 0}
+    attackEffect: {fileID: 0}
+    beingHit: 0
+    poisoned: 0
+    owner: 0
+  - pos: 0
+    cardName: 
+    readyToAttack: 0
+    id: 0
+    type: 0
+    hp: 0
+    hpType: 0
+    maxHp: 0
+    attack: 0
+    attackType: 0
+    special: 0
+    specialSkill: 0
+    attackSound: {fileID: 0}
+    attackEffect: {fileID: 0}
+    beingHit: 0
+    poisoned: 0
+    owner: 0
+  - pos: 0
+    cardName: 
+    readyToAttack: 0
+    id: 0
+    type: 0
+    hp: 0
+    hpType: 0
+    maxHp: 0
+    attack: 0
+    attackType: 0
+    special: 0
+    specialSkill: 0
+    attackSound: {fileID: 0}
+    attackEffect: {fileID: 0}
+    beingHit: 0
+    poisoned: 0
+    owner: 0
+  - pos: 0
+    cardName: 
+    readyToAttack: 0
+    id: 0
+    type: 0
+    hp: 0
+    hpType: 0
+    maxHp: 0
+    attack: 0
+    attackType: 0
+    special: 0
+    specialSkill: 0
+    attackSound: {fileID: 0}
+    attackEffect: {fileID: 0}
+    beingHit: 0
+    poisoned: 0
+    owner: 0
+  - pos: 0
+    cardName: 
+    readyToAttack: 0
+    id: 0
+    type: 0
+    hp: 0
+    hpType: 0
+    maxHp: 0
+    attack: 0
+    attackType: 0
+    special: 0
+    specialSkill: 0
+    attackSound: {fileID: 0}
+    attackEffect: {fileID: 0}
+    beingHit: 0
+    poisoned: 0
+    owner: 0
+  - pos: 0
+    cardName: 
+    readyToAttack: 0
+    id: 0
+    type: 0
+    hp: 0
+    hpType: 0
+    maxHp: 0
+    attack: 0
+    attackType: 0
+    special: 0
+    specialSkill: 0
+    attackSound: {fileID: 0}
+    attackEffect: {fileID: 0}
+    beingHit: 0
+    poisoned: 0
+    owner: 0
+  - pos: 0
+    cardName: 
+    readyToAttack: 0
+    id: 0
+    type: 0
+    hp: 0
+    hpType: 0
+    maxHp: 0
+    attack: 0
+    attackType: 0
+    special: 0
+    specialSkill: 0
+    attackSound: {fileID: 0}
+    attackEffect: {fileID: 0}
+    beingHit: 0
+    poisoned: 0
+    owner: 0
+  - pos: 0
+    cardName: 
+    readyToAttack: 0
+    id: 0
+    type: 0
+    hp: 0
+    hpType: 0
+    maxHp: 0
+    attack: 0
+    attackType: 0
+    special: 0
+    specialSkill: 0
+    attackSound: {fileID: 0}
+    attackEffect: {fileID: 0}
+    beingHit: 0
+    poisoned: 0
+    owner: 0
+  - pos: 0
+    cardName: 
+    readyToAttack: 0
+    id: 0
+    type: 0
+    hp: 0
+    hpType: 0
+    maxHp: 0
+    attack: 0
+    attackType: 0
+    special: 0
+    specialSkill: 0
+    attackSound: {fileID: 0}
+    attackEffect: {fileID: 0}
+    beingHit: 0
+    poisoned: 0
+    owner: 0
+  - pos: 0
+    cardName: 
+    readyToAttack: 0
+    id: 0
+    type: 0
+    hp: 0
+    hpType: 0
+    maxHp: 0
+    attack: 0
+    attackType: 0
+    special: 0
+    specialSkill: 0
+    attackSound: {fileID: 0}
+    attackEffect: {fileID: 0}
+    beingHit: 0
+    poisoned: 0
+    owner: 0
+  - pos: 0
+    cardName: 
+    readyToAttack: 0
+    id: 0
+    type: 0
+    hp: 0
+    hpType: 0
+    maxHp: 0
+    attack: 0
+    attackType: 0
+    special: 0
+    specialSkill: 0
+    attackSound: {fileID: 0}
+    attackEffect: {fileID: 0}
+    beingHit: 0
+    poisoned: 0
+    owner: 0
+  - pos: 0
+    cardName: 
+    readyToAttack: 0
+    id: 0
+    type: 0
+    hp: 0
+    hpType: 0
+    maxHp: 0
+    attack: 0
+    attackType: 0
+    special: 0
+    specialSkill: 0
+    attackSound: {fileID: 0}
+    attackEffect: {fileID: 0}
+    beingHit: 0
+    poisoned: 0
+    owner: 0
+  - pos: 0
+    cardName: 
+    readyToAttack: 0
+    id: 0
+    type: 0
+    hp: 0
+    hpType: 0
+    maxHp: 0
+    attack: 0
+    attackType: 0
+    special: 0
+    specialSkill: 0
+    attackSound: {fileID: 0}
+    attackEffect: {fileID: 0}
+    beingHit: 0
+    poisoned: 0
+    owner: 0
+  - pos: 0
+    cardName: 
+    readyToAttack: 0
+    id: 0
+    type: 0
+    hp: 0
+    hpType: 0
+    maxHp: 0
+    attack: 0
+    attackType: 0
+    special: 0
+    specialSkill: 0
+    attackSound: {fileID: 0}
+    attackEffect: {fileID: 0}
+    beingHit: 0
+    poisoned: 0
+    owner: 0
+  - pos: 0
+    cardName: 
+    readyToAttack: 0
+    id: 0
+    type: 0
+    hp: 0
+    hpType: 0
+    maxHp: 0
+    attack: 0
+    attackType: 0
+    special: 0
+    specialSkill: 0
+    attackSound: {fileID: 0}
+    attackEffect: {fileID: 0}
+    beingHit: 0
+    poisoned: 0
+    owner: 0
+  - pos: 0
+    cardName: 
+    readyToAttack: 0
+    id: 0
+    type: 0
+    hp: 0
+    hpType: 0
+    maxHp: 0
+    attack: 0
+    attackType: 0
+    special: 0
+    specialSkill: 0
+    attackSound: {fileID: 0}
+    attackEffect: {fileID: 0}
+    beingHit: 0
+    poisoned: 0
+    owner: 0
+  specials:
+  - target: 0
+    type: 3
+    value: 1
+    specSound: {fileID: 8300000, guid: 27520be8faad1b346b66ce6cc137801a, type: 3}
+    name: Toughness
+    desc: "Wears armor that absorbs damage. \n(-1 injuries)"
+    icon: {fileID: 2800000, guid: eb0b5983fbd03304ebcebef691f4ced3, type: 3}
+  - target: 999
+    type: 10
+    value: 123
+    specSound: {fileID: 0}
+    name: Fracture
+    desc: "Provides additional damage for creature behind target. \n(50% of normal
+      damage)"
+    icon: {fileID: 2800000, guid: 92a5ceeebe5b24d44ba555c193aa5ed0, type: 3}
+  - target: 3
+    type: 0
+    value: -25
+    specSound: {fileID: 8300000, guid: b911b9d07f286604f8f52571e0c79d77, type: 3}
+    name: Powerless
+    desc: "Uses caster's mana to keep power. \n(-25 mana)"
+    icon: {fileID: 2800000, guid: 422dd5ad276de5b4da46db4ba578eabd, type: 3}
+  - target: 1
+    type: 9
+    value: 5
+    specSound: {fileID: 8300000, guid: 49bd2c073d105404199c34851f24a972, type: 3}
+    name: Proudness
+    desc: "Strengthens team just by his existence. \n(+5 team max health and health)"
+    icon: {fileID: 2800000, guid: 30c027e2f39ef654abdee0fcd677387c, type: 3}
+  - target: 0
+    type: 4
+    value: 1
+    specSound: {fileID: 0}
+    name: Loyality
+    desc: 'Protects caster at all cost.
+
+      (-1 caster''s injuries)'
+    icon: {fileID: 2800000, guid: 1ff2b7414342f324db6055bf140a3bb8, type: 3}
+  - target: 0
+    type: 6
+    value: 2
+    specSound: {fileID: 8300000, guid: e5f08320355c43c4d94920a49f0c4a68, type: 3}
+    name: Serum
+    desc: 'Reduces poison type injuries.
+
+      (-2 poison injuries)'
+    icon: {fileID: 2800000, guid: 95c8125b260e6934b9de9870eaf24362, type: 3}
+  - target: 999
+    type: 8
+    value: 123
+    specSound: {fileID: 0}
+    name: Unforgiveness
+    desc: Attacks an enemy when damaged.
+    icon: {fileID: 2800000, guid: 561cc2ad22f20da4ba5e6b1c538405c7, type: 3}
+  - target: 3
+    type: 2
+    value: 2
+    specSound: {fileID: 8300000, guid: 02979aa5941759d43bb891f7b6a3f2c9, type: 3}
+    name: Cure
+    desc: 'Heals caster.
+
+      (+2 caster''s health)'
+    icon: {fileID: 2800000, guid: 6225bf1e8d9964948ad940da6dda16ef, type: 3}
+  - target: 999
+    type: 0
+    value: 123
+    specSound: {fileID: 0}
+    name: Revenge
+    desc: Performs an attack when caster was hit.
+    icon: {fileID: 2800000, guid: 6a3f8f2935a750d4a83d1889f45442e6, type: 3}
+  - target: 3
+    type: 0
+    value: 40
+    specSound: {fileID: 8300000, guid: e443badf805a7664aa803730c316d683, type: 3}
+    name: Flask of Mana
+    desc: 'Provides caster with mana boost.
+
+      (+40 caster''s mana)'
+    icon: {fileID: 2800000, guid: 860cfbcb9c69c7347ba253b641f58710, type: 3}
+  - target: 1
+    type: 2
+    value: -2
+    specSound: {fileID: 8300000, guid: ddde912ee4803f94ab569f870a2f7d31, type: 3}
+    name: Death Blast
+    desc: 'Explodes on death and deals damage to all allies.
+
+      (-2 team health)'
+    icon: {fileID: 2800000, guid: c2707f81e1e5dbe4dbeba8cdfb373803, type: 3}
+  - target: 0
+    type: 2
+    value: 1
+    specSound: {fileID: 0}
+    name: Regeneration
+    desc: 'Restores health every round.
+
+      (+1 health)'
+    icon: {fileID: 2800000, guid: 6e868ed3e755fc14592fb4057bfc8878, type: 3}
+  - target: 0
+    type: 7
+    value: 1
+    specSound: {fileID: 8300000, guid: 33dbb9acad68e7b4b95db9f4d667e90a, type: 3}
+    name: Immunization
+    desc: 'Reduces frost type injuries.
+
+      (-1 frost injuries)'
+    icon: {fileID: 2800000, guid: ad0a524c50850ee42bd4adc1e4af4721, type: 3}
+  - target: 3
+    type: 2
+    value: 5
+    specSound: {fileID: 8300000, guid: 53ccf388b2a42614b9a514b47d825b36, type: 3}
+    name: Flask of Health
+    desc: 'Provides caster with health boost.
+
+      (+5 caster''s health)'
+    icon: {fileID: 2800000, guid: ba871cd13ae16fc419ed0bf69f35b166, type: 3}
+  - target: 0
+    type: 5
+    value: 1
+    specSound: {fileID: 8300000, guid: fe961f3219f7c624fb8afc0aa6bc2f1b, type: 3}
+    name: Berserk
+    desc: 'Becomes stronger by fighting.
+
+      (+1 damage)'
+    icon: {fileID: 2800000, guid: af61fee779dac5549abc2f514e764a23, type: 3}
+  - target: 3
+    type: 0
+    value: 15
+    specSound: {fileID: 8300000, guid: 16890ff55d12ee74f8c0d6958559360f, type: 3}
+    name: Concentration
+    desc: 'Helps caster gaining mana.
+
+      (+15 caster''s mana)'
+    icon: {fileID: 2800000, guid: f9f37ea3e6120084eace2857aa6f7608, type: 3}
+  - target: 2
+    type: 2
+    value: -1
+    specSound: {fileID: 8300000, guid: 982aeb6f917148641b39c4eab37f3968, type: 3}
+    name: Fear
+    desc: 'Damages enemy units when appears.
+
+      (-1 enemy team health)'
+    icon: {fileID: 2800000, guid: f4df290f69c36c74e941214b95193034, type: 3}
+  - target: 0
+    type: 2
+    value: 1
+    specSound: {fileID: 8300000, guid: d5541ff37ddd80445a1369af3680d50e, type: 3}
+    name: Absortion
+    desc: 'Gains health when someone dies.
+
+      (+1 health)'
+    icon: {fileID: 2800000, guid: c0964de9ace77034b92a806e03ee7d04, type: 3}
+  - target: 0
+    type: 2
+    value: 100
+    specSound: {fileID: 8300000, guid: 1b4d0219b90428948973815e34313f18, type: 3}
+    name: Respawn
+    desc: 'Takes enemy soul and absorbs it.
+
+      (+100 health)'
+    icon: {fileID: 2800000, guid: ed58023c5685e50468ea399d8602344b, type: 3}
+  - target: 1
+    type: 5
+    value: 1
+    specSound: {fileID: 8300000, guid: 9f5c88417bf5243438ba17192e5b8402, type: 3}
+    name: Battle Standard
+    desc: 'Gives courage to team.
+
+      (+1 team damage)'
+    icon: {fileID: 2800000, guid: f7f964881e03bc1469547840dc87bf26, type: 3}
+  - target: 0
+    type: 2
+    value: 2
+    specSound: {fileID: 8300000, guid: 846dac0de25a1a94cac507f9c99286a2, type: 3}
+    name: Rage
+    desc: 'Becomes raged and regenerates health
+
+      (+2 health)'
+    icon: {fileID: 2800000, guid: 9c1b99eea6900cd4c98f5718a260ba46, type: 3}
+  - target: 0
+    type: 5
+    value: 2
+    specSound: {fileID: 8300000, guid: 9fc07fec048b0e04ea1ab7128b9b5d1e, type: 3}
+    name: Bloodlust
+    desc: 'Becomes enraged and stronger.
+
+      (+2 damage)'
+    icon: {fileID: 2800000, guid: d332017b48c46444c8d489134c6fc043, type: 3}
+  - target: 3
+    type: 2
+    value: -2
+    specSound: {fileID: 0}
+    name: Blood Payment
+    desc: 'Demands caster''s blood to be loyal.
+
+      (-2 caster''s health)'
+    icon: {fileID: 2800000, guid: 56e2da736d52b9c46846cb9484b348d7, type: 3}
+  - target: 0
+    type: 3
+    value: 2
+    specSound: {fileID: 0}
+    name: God Mode
+    desc: 'Blocks damage with stone skin.
+
+      (-2 injuries)'
+    icon: {fileID: 2800000, guid: ad216561332756145ad47666ad39be6d, type: 3}
+  - target: 3
+    type: 0
+    value: 25
+    specSound: {fileID: 8300000, guid: 68d6041e7816660478664a4525eb3588, type: 3}
+    name: Soul take
+    desc: 'Transforms death to mana for caster.
+
+      (+25 caster''s mana)'
+    icon: {fileID: 2800000, guid: 6ced1b7080399054eb7a3439e8cf9d40, type: 3}
+  - target: 999
+    type: 11
+    value: 123
+    specSound: {fileID: 0}
+    name: Slashing
+    desc: Does additional damage to nearby enemies.
+    icon: {fileID: 2800000, guid: 6c9f458f2647ba2469effe8a73b9644b, type: 3}
+  - target: 4
+    type: 0
+    value: -20
+    specSound: {fileID: 8300000, guid: 34ed6380685fa294faffb7d2d2f9683a, type: 3}
+    name: Steal
+    desc: 'Stoles mana from enemy caster.
+
+      (-20 enemy caster''s mana)'
+    icon: {fileID: 2800000, guid: 9ef74f811dfb524459b3bb3428d49ab9, type: 3}
+  - target: 3
+    type: 0
+    value: 20
+    specSound: {fileID: 0}
+    name: Gift
+    desc: 'Gives stolen mana to caster.
+
+      (+20 caster''s mana)'
+    icon: {fileID: 2800000, guid: 34171ffbfc708fe41b3395c8a44fd41c, type: 3}
+  - target: 1
+    type: 2
+    value: 2
+    specSound: {fileID: 8300000, guid: e294878ab107ddb43908f3935bd1c2dc, type: 3}
+    name: Last Breath
+    desc: 'Heals whole team when dies.
+
+      (+2 team health)'
+    icon: {fileID: 2800000, guid: 1887f5818268fed40a162d9898f433f7, type: 3}
+  - target: 3
+    type: 0
+    value: 5
+    specSound: {fileID: 8300000, guid: 11545326eadbd5b438ef378ea4853f85, type: 3}
+    name: Soul Shield
+    desc: 'Increases caster mana when injured.
+
+      (+5 caster''s mana)'
+    icon: {fileID: 2800000, guid: 09e6b704a03fbe04395877546974afbd, type: 3}
+  - target: 0
+    type: 9
+    value: 1
+    specSound: {fileID: 8300000, guid: b196ad7f2f80d144ba0257bd28163c8f, type: 3}
+    name: Improvement
+    desc: 'Gets additional stamina every attack.
+
+      (+1 max health and health)'
+    icon: {fileID: 2800000, guid: 05efb15c164361342b95b4b452d8f0a2, type: 3}
+  - target: 3
+    type: 0
+    value: 20
+    specSound: {fileID: 8300000, guid: 16e56780ad7f78d41afb3c0a5c00abb4, type: 3}
+    name: Extraction
+    desc: 'Snatches victim''s soul and transforms it into mana.
+
+      (+20 caster''s mana)'
+    icon: {fileID: 2800000, guid: bcf359633a763254fa82175f0a48e13c, type: 3}
+  - target: 4
+    type: 2
+    value: -4
+    specSound: {fileID: 8300000, guid: 9ceb5a03a1774d9479aed749f9a8343f, type: 3}
+    name: Catapult Sniper
+    desc: 'Throws a rock to opponent.
+
+      (-4 enemy caster''s health)'
+    icon: {fileID: 2800000, guid: 617b9252780b5a145950367de51aaa57, type: 3}
+  - target: 0
+    type: 2
+    value: -1
+    specSound: {fileID: 8300000, guid: 34ed6380685fa294faffb7d2d2f9683a, type: 3}
+    name: Sorrow
+    desc: 'Losses health due to someone''s death.
+
+      (-1 health)'
+    icon: {fileID: 2800000, guid: 42aa05a4921581f4492916ace90c96e4, type: 3}
+  - target: 2
+    type: 2
+    value: -2
+    specSound: {fileID: 8300000, guid: 982aeb6f917148641b39c4eab37f3968, type: 3}
+    name: Curse
+    desc: 'Casts a curse before dying.
+
+      (-2 enemy team health)'
+    icon: {fileID: 2800000, guid: 9062cf5c108eb5545980d263e470ad59, type: 3}
+  - target: 3
+    type: 0
+    value: -50
+    specSound: {fileID: 8300000, guid: 4b41dce0ea8b3c245ad5e6aad7bcd57a, type: 3}
+    name: Negotiations
+    desc: 'Requires more mana if caster possess it.
+
+      (-50 caster''s mana)'
+    icon: {fileID: 2800000, guid: 9407cfcbcbb10f04b9000c170503beff, type: 3}
+  - target: 999
+    type: 8
+    value: 1
+    specSound: {fileID: 0}
+    name: Fast ambush
+    desc: Skips first move blockade.
+    icon: {fileID: 2800000, guid: af61fee779dac5549abc2f514e764a23, type: 3}
+  - target: 4
+    type: 0
+    value: -5
+    specSound: {fileID: 8300000, guid: 16890ff55d12ee74f8c0d6958559360f, type: 3}
+    name: Mana trap
+    desc: 'Sets a trap which absorbs mana.
+
+      (-5 enemy caster''s mana)'
+    icon: {fileID: 2800000, guid: f766bc2d1848e6c4f8afa23f286c8168, type: 3}
+  - target: 0
+    type: 4
+    value: 1
+    specSound: {fileID: 8300000, guid: 846dac0de25a1a94cac507f9c99286a2, type: 3}
+    name: Palisade
+    desc: 'Protects caster by building a palisade.
+
+      (-1 caster''s injuries)'
+    icon: {fileID: 2800000, guid: ad216561332756145ad47666ad39be6d, type: 3}
+  - target: 4
+    type: 2
+    value: -1
+    specSound: {fileID: 8300000, guid: 9a17fb18b83ace44dbfa37687c72aa65, type: 3}
+    name: Ice spikes
+    desc: 'Hurts enemy caster with ice spikes
+
+      (-1 enemy caster''s health)'
+    icon: {fileID: 2800000, guid: bfe20dc01768d89498e34e31955b0e20, type: 3}
+  goFaster: 1.5
+  players:
+  - cpuControl: 1
+    ai: 1
+    playerName: Unknown
+    portrait: {fileID: 2800000, guid: 5df091b5d9a26b4409bdff1ed6b7123f, type: 3}
+    hp: 666
+    maxHp: 666
+    deck: 110000000a000000060000000b0000000c0000002700000012000000160000002600000007000000150000000f0000000d0000000800000004000000
+    cardCooldown: 000000000000000000000000000000
+    mana: 666
+    maxMana: 666
+    gainMana: 666
+  - cpuControl: 1
+    ai: 1
+    playerName: Unknown
+    portrait: {fileID: 2800000, guid: 5df091b5d9a26b4409bdff1ed6b7123f, type: 3}
+    hp: 666
+    maxHp: 666
+    deck: 1b000000060000001700000001000000120000001e000000150000001d00000021000000200000000e00000010000000240000000b0000001a000000
+    cardCooldown: 000000000000000000000000000000
+    mana: 666
+    maxMana: 666
+    gainMana: 666
+  sounds:
+  - {fileID: 8300000, guid: f769105d7762ac54588c34889f09a29c, type: 3}
+  - {fileID: 8300000, guid: 0b8ef6bb8f8b74f4899de55f33d845f4, type: 3}
+  - {fileID: 8300000, guid: 0b8ef6bb8f8b74f4899de55f33d845f4, type: 3}
+  - {fileID: 8300000, guid: 6e32aa10e5396ca48a78b49d531beb00, type: 3}
+  - {fileID: 8300000, guid: e443badf805a7664aa803730c316d683, type: 3}
+  GUITextures:
+  - {fileID: 2800000, guid: 7d97e6f77e014f148bdfa1f5e604c0f5, type: 3}
+  - {fileID: 2800000, guid: 715eb25fe25bd66478f791c35810cdfa, type: 3}
+  - {fileID: 2800000, guid: 07ba1615577d7964fb01bca8d3a4c72f, type: 3}
+  - {fileID: 2800000, guid: 3635b15ad75574a46ab2c66159c70250, type: 3}
+  - {fileID: 2800000, guid: d630e4228ae228342aa559a87931752b, type: 3}
+  - {fileID: 2800000, guid: 8ae9c5a47fe1cdd4ba23f15fbbe55026, type: 3}
+  - {fileID: 2800000, guid: 3942744780079c248af8f46ad6436a8b, type: 3}
+  - {fileID: 2800000, guid: 57c12140da2577943b18fae3e2129d7e, type: 3}
+  - {fileID: 2800000, guid: 9a75d75ed8c8c9345bd580128e38225c, type: 3}
+  - {fileID: 2800000, guid: e05706b279c16a149a82669c7f1f748b, type: 3}
+  - {fileID: 2800000, guid: 8271255946578174792015b56bbed1db, type: 3}
+  - {fileID: 2800000, guid: d840e58bce7a98243800c3d272af18b5, type: 3}
+  - {fileID: 2800000, guid: 227ab83562b5f6240a731ce6bc7c0e70, type: 3}
+  - {fileID: 2800000, guid: c769b619e50eeed459c9cbabff6f6cd9, type: 3}
+  - {fileID: 2800000, guid: 367fa18cdba2c344d8e2634163b98158, type: 3}
+  - {fileID: 2800000, guid: c2f7994e54fbcc643b5e02c877a65a90, type: 3}
+  - {fileID: 2800000, guid: 40053634d5a34bb4797500e1ee7ba041, type: 3}
+  - {fileID: 2800000, guid: 38082b5e3d453f34591b463ade54469b, type: 3}
+  - {fileID: 2800000, guid: 6bb1cd80048c5ff4e8d5209e419f87f0, type: 3}
+  - {fileID: 2800000, guid: 0d9952fc067afed44a5c5003b92ee85f, type: 3}
+  - {fileID: 2800000, guid: b65d144d5db83a44c9c63a0f0326ac93, type: 3}
+  - {fileID: 2800000, guid: cb2709106b828e84a855c81e07459492, type: 3}
+  - {fileID: 2800000, guid: 106ff8cc508457a489b1e40ccc253249, type: 3}
+  - {fileID: 2800000, guid: e0076a5ff7391b343952d1c115bfe969, type: 3}
+  - {fileID: 2800000, guid: 9f15373eb85cf964296da0f18af6ebe2, type: 3}
+  - {fileID: 2800000, guid: f1cdf2bdb126bb74694bc341ced5f9ed, type: 3}
+  - {fileID: 2800000, guid: c0ae9598f67eebc428a6155ee79fd8b1, type: 3}
+  - {fileID: 2800000, guid: 051a873e7a72dfa43a1b245f55755bf9, type: 3}
+  - {fileID: 2800000, guid: 9f15373eb85cf964296da0f18af6ebe2, type: 3}
+  - {fileID: 2800000, guid: c2f7994e54fbcc643b5e02c877a65a90, type: 3}
+  - {fileID: 2800000, guid: 860cfbcb9c69c7347ba253b641f58710, type: 3}
+  drawCount: 0
+  gameMen: {fileID: 0}
+  gameMenuScript: {fileID: 0}
+  guiStyle:
+    m_Name: 
+    m_Normal:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Hover:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Active:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Focused:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 12800000, guid: a190313a8eb20d448bc7555568625b61, type: 3}
+    m_FontSize: 14
+    m_FontStyle: 1
+    m_Alignment: 4
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 0
+    m_StretchWidth: 1
+    m_StretchHeight: 0
+  guiStyleBorder:
+    m_Name: BORDER
+    m_Normal:
+      m_Background: {fileID: 2800000, guid: 9721f9429dc45fd42a18c634c63a2a14, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.4, g: 1, b: 0.4, a: 1}
+    m_Hover:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Active:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Focused:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Border:
+      m_Left: 6
+      m_Right: 6
+      m_Top: 6
+      m_Bottom: 6
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 6
+      m_Right: 6
+      m_Top: 6
+      m_Bottom: 6
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 12800000, guid: a190313a8eb20d448bc7555568625b61, type: 3}
+    m_FontSize: 25
+    m_FontStyle: 1
+    m_Alignment: 2
+    m_WordWrap: 1
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 0
+    m_StretchWidth: 1
+    m_StretchHeight: 0
+  guiStyleSlot:
+    m_Name: Slot
+    m_Normal:
+      m_Background: {fileID: 2800000, guid: e0279ec9f53429a4eaa049231e4d26d9, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Hover:
+      m_Background: {fileID: 2800000, guid: e0279ec9f53429a4eaa049231e4d26d9, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.81282955, g: 0.8602941, b: 0, a: 1}
+    m_Active:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Focused:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Border:
+      m_Left: 10
+      m_Right: 10
+      m_Top: 10
+      m_Bottom: 10
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 12800000, guid: a86625317d4dde14a8c3409a99b83ae1, type: 3}
+    m_FontSize: 21
+    m_FontStyle: 0
+    m_Alignment: 4
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 1
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 0
+    m_StretchWidth: 1
+    m_StretchHeight: 0
+  guiStyleMenu:
+    m_Name: 
+    m_Normal:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Hover:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Active:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Focused:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 12800000, guid: a86625317d4dde14a8c3409a99b83ae1, type: 3}
+    m_FontSize: 21
+    m_FontStyle: 0
+    m_Alignment: 4
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 1
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 0
+    m_StretchWidth: 1
+    m_StretchHeight: 0
+  onlyQuoteFont:
+    m_Name: 
+    m_Normal:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Hover:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Active:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Focused:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 12800000, guid: a86625317d4dde14a8c3409a99b83ae1, type: 3}
+    m_FontSize: 8
+    m_FontStyle: 2
+    m_Alignment: 4
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 0
+    m_StretchWidth: 1
+    m_StretchHeight: 0
+  PlayerInfo:
+    m_Name: Panel near portrait
+    m_Normal:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Hover:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Active:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Focused:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 12800000, guid: 892c3ade3404a5e4b99e5381750f4445, type: 3}
+    m_FontSize: 21
+    m_FontStyle: 0
+    m_Alignment: 4
+    m_WordWrap: 1
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 0
+    m_StretchWidth: 1
+    m_StretchHeight: 0
+  guiStyleLabel:
+    m_Name: 
+    m_Normal:
+      m_Background: {fileID: 10912, guid: 0000000000000000f000000000000000, type: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Hover:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Active:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Focused:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 0
+    m_FontStyle: 0
+    m_Alignment: 0
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 0
+    m_StretchWidth: 1
+    m_StretchHeight: 0
+  buttonGuiStyle:
+    m_Name: 
+    m_Normal:
+      m_Background: {fileID: 2800000, guid: 7d97e6f77e014f148bdfa1f5e604c0f5, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Hover:
+      m_Background: {fileID: 2800000, guid: 438f34e6b9ed4a541ad2096ddca78768, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Active:
+      m_Background: {fileID: 2800000, guid: 7d97e6f77e014f148bdfa1f5e604c0f5, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Focused:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 0
+    m_FontStyle: 0
+    m_Alignment: 0
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 0
+    m_StretchWidth: 1
+    m_StretchHeight: 0
+  buttonGuiStyle2:
+    m_Name: 
+    m_Normal:
+      m_Background: {fileID: 2800000, guid: 715eb25fe25bd66478f791c35810cdfa, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Hover:
+      m_Background: {fileID: 2800000, guid: aba281322a806d144b2747c07677b947, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Active:
+      m_Background: {fileID: 2800000, guid: 715eb25fe25bd66478f791c35810cdfa, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Focused:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 0
+    m_FontStyle: 0
+    m_Alignment: 0
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 0
+    m_StretchWidth: 1
+    m_StretchHeight: 0
+  indepIcons: []
+  demoState: 0
+  duelName: 
+  duelCaster: 0000000000000000
+  duelDeckCard: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  duelPos: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  onlineGame: 1
+  canOnline: 0
+  multiplayerPlayer: {fileID: 114538189345682408}
+  takeCard: 0
+  takePos: 0
+  thunders:
+  - {fileID: 8300000, guid: 6104532f5e4ab314cb1d909ef4195fc7, type: 3}
+  - {fileID: 8300000, guid: 950ad7f8ab34b0142b1a9b6864e8a46f, type: 3}
+  - {fileID: 8300000, guid: 54f621242d4fe8e4b88953b48c3e2446, type: 3}
+  - {fileID: 8300000, guid: db706140e62d84d41985ee8b0a5fddcd, type: 3}
+  - {fileID: 8300000, guid: ac42170e1f74a8942bd224d6256ac2c9, type: 3}
+  - {fileID: 8300000, guid: d8bc8851a712e094dbb49d243979eadc, type: 3}
+  - {fileID: 8300000, guid: 8712a3fde89c4f84ba0f2e7351b9d454, type: 3}
+  tourMatch: 0
