@@ -38,8 +38,19 @@ Quick instructions:
 
 ## License
 
-  Some assets are not mine. Check in-game credits for other authors.
-Ask me a question if are using #card-game assets and you are not sure how to credit them.
+  Some assets are not mine. Here are the credits:
+* http://www.noiseforfun.com/ (some CC-BY-3 sounds)
+* https://opensource.org/licenses/OFL-1.1 (OFL for used fonts)
+* http://game-icons.net/ (CC-BY-3 icons for effects and some gui):
+Lorc, http://lorcblog.blogspot.com
+Delapouite, http://delapouite.com
+sbed, http://opengameart.org/content/95-game-icons
+Skoll, http://game-icons.net
+HeavenlyDog, http://www.gnomosygoblins.blogspot.com
+
+Using assets from #card-game? Not sure how to credit them? Ask me.
+
+Wanna use portraits or other of mine assets? Credit me - just put link to my profile - https://github.com/exewin
 
 Project is licensed under CC-BY-3 http://creativecommons.org/licenses/by/3.0/
 
@@ -49,4 +60,5 @@ Project is licensed under CC-BY-3 http://creativecommons.org/licenses/by/3.0/
 * http://game-icons.net/
 * https://opengameart.org/
 * https://freesound.org/
+* http://www.noiseforfun.com/
 * https://www.youtube.com/watch?v=QVLMBRRP3nA
