@@ -42,11 +42,11 @@ Quick instructions:
 * http://www.noiseforfun.com/ (some CC-BY-3 sounds)
 * https://opensource.org/licenses/OFL-1.1 (OFL for used fonts)
 * http://game-icons.net/ (CC-BY-3 icons for effects and some gui):
-Lorc, http://lorcblog.blogspot.com
-Delapouite, http://delapouite.com
-sbed, http://opengameart.org/content/95-game-icons
-Skoll, http://game-icons.net
-HeavenlyDog, http://www.gnomosygoblins.blogspot.com
+Lorc http://lorcblog.blogspot.com | 
+Delapouite http://delapouite.com | 
+sbed http://opengameart.org/content/95-game-icons | 
+Skoll http://game-icons.net | 
+HeavenlyDog http://www.gnomosygoblins.blogspot.com
 
 Using assets from #card-game? Not sure how to credit them? Ask me.
 
