@@ -30,7 +30,7 @@ Quick instructions:
 
 ### Multiplayer
 
-  Currently it's possible to play multiplayer via LAN (You can to play over the Internet). Matchmaking isn't supported. There are some minor bugs and it's easy to crash the match with changing game speed. 
+  Currently it's possible to play multiplayer via LAN (You can use hamachi to play over the Internet). Matchmaking isn't supported. There are some minor bugs and it's easy to crash the match with changing game speed. 
 
 ### Demos
 
