@@ -38,7 +38,14 @@ Quick instructions:
 
 ## License
 
-  Some assets are not mine. Here are the credits:
+Project is licensed under GNU General Public License v3.0 http://creativecommons.org/licenses/by/3.0/
+
+If you want to use my assets, please read the license first.
+
+How to credit me: Put somewhere in your project link to my profile: https://github.com/exewin or this project: https://github.com/exewin/space-game
+
+Keep in mind that not everything in this project was created by me. You can find all the necessary info about other creators in in-game credits and here:
+
 * http://www.noiseforfun.com/ (some CC-BY-3 sounds)
 * https://opensource.org/licenses/OFL-1.1 (OFL for used fonts)
 * http://game-icons.net/ (CC-BY-3 icons for effects and some gui):
@@ -50,9 +57,6 @@ HeavenlyDog http://www.gnomosygoblins.blogspot.com
 
 Using assets from #card-game? Not sure how to credit them? Ask me.
 
-Wanna use portraits or other of mine assets? Credit me - just put link to my profile - https://github.com/exewin
-
-Project is licensed under CC-BY-3 http://creativecommons.org/licenses/by/3.0/
 
 
 ## Useful links
